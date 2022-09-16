@@ -5,7 +5,7 @@ function validateNumber(){
     var init4 = num.slice(0,4);
     var init5 = num.slice(0,5);
     if(init5=="(234)" && len==15){
-        document.getElementById("display-msg").innerHTML += "Valid";
+        document.getElementById("display-msg").innerHTML = "Valid";
     }
     else if(init4=="+234" && len==14){
         document.getElementById("display-msg").innerHTML = "Valid";
@@ -15,5 +15,6 @@ function validateNumber(){
     }
     else{
         document.getElementById("display-msg").innerHTML = "Invalid";
+        document.getElementById("display-msg").style.borderColor = "red";
     }
 }
