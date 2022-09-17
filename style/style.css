@@ -1,18 +1,22 @@
 *{
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
 }
 body{
-    background-color:rgba(35, 170, 46, 0.4);
+    background-color:rgb(198, 241, 201);
     margin: 0;
     border:none;
 }
 div{
     position: relative;
-    transform:translateY(50px);
-    background-color: aliceblue;
-    border: 20px solid transparent;
+    top:50px;
+    background: linear-gradient(rgb(238, 166, 166), rgb(235, 235, 156));
+    border: 5px solid rgb(101, 150, 112);
+    box-shadow: 2px 2px 4px 3px rgb(21, 90, 63);
     width: 300px;
     height: 80vh;
+    min-height: 370px;
+    max-height: 500px;
     margin: 0 auto;
     text-align: center;
     border-radius: 20px;
@@ -21,8 +25,9 @@ div{
 input{
     height:40px;
     width: 200px;
-    padding: 0 20px;
+    font-size: 1.2rem;
+    padding: 0 15px;
     border-radius: 10px;
     margin: 10px auto 50px;
-    background-color: transparent;
+    background-color: rgba(35, 170, 46, 0.2);
 }
